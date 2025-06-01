@@ -1,0 +1,8 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Nunito", sans-serif;
+  --button-font: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: var(--primary-font);
+}
