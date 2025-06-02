@@ -36,7 +36,7 @@
   line-height: 28px;
   font-size: 18px;
 }
-@media (max-width: 580px) {
+@media (max-width: 900px) {
   #home-page-hero h1 {
     font-size: 32px;
   }
