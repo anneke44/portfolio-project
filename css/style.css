@@ -67,7 +67,7 @@ p {
   margin: 15px auto;
 }
 #head-shot {
-  max-width: 200px;
+  max-width: 300px;
 }
 @media (max-width: 769px) {
   #home-page-hero {
@@ -88,5 +88,16 @@ p {
   }
   #launch-button {
     margin-bottom: 40px;
+  }
+  #about-me-hero {
+    padding: 0;
+    text-align: center;
+  }
+  #about-me-hero h1 {
+    font-size: 32px;
+  }
+  #head-shot {
+    margin-top: 50px;
+    max-width: 200px;
   }
 }
