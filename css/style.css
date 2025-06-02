@@ -10,15 +10,24 @@
 body {
   background-color: var(--primary-color);
 }
+p {
+  font-family: var(--secondary-font);
+}
+.logo {
+  max-width: 100px;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
 
 #primary-heading {
   text-align: left;
-  margin: 40px auto;
+  margin-bottom: 30px;
 }
 #home-page-hero {
   text-align: left;
   margin: 0;
-  padding: 200px 400px 200px 200px;
+  padding: 100px 400px 200px 200px;
 }
 #home-page-hero h1 {
   font-family: var(--primary-font);
@@ -38,7 +47,6 @@ body {
   font-size: 32px;
 }
 #app-description p {
-  font-family: var(--secondary-font);
   margin: 20px auto;
 }
 #launch-button {
