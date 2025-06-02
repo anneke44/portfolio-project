@@ -2,7 +2,27 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Nunito", sans-serif;
   --button-font: "Montserrat", sans-serif;
+  --primary-color: rgb(239, 238, 234);
+  --secondary-color: rgb(39, 63, 79);
+  --tertiary-color: rgb(0, 0, 0);
+  --high-light-color: rgb(254, 119, 67);
 }
 h1 {
   font-family: var(--primary-font);
+}
+
+#home-page-hero {
+  background-color: var(--primary-color);
+  text-align: center;
+  margin: 5px 5px;
+  padding: 200px 50px;
+}
+#home-page-hero h1 {
+  font-family: var(--primary-font);
+}
+#home-page-hero h2 {
+  font-family: var(--primary-font);
+}
+#home-page-hero a {
+  font-family: var(--button-font);
 }
