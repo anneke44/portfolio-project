@@ -21,11 +21,34 @@ h3 {
 p {
   font-family: var(--secondary-font);
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--high-light-color);
+}
+nav li.active a {
+  /* color: var(--primary-color); */
+  display: none;
+}
 .logo {
-  max-width: 100px;
+  max-width: 50px;
   display: block;
-  margin-right: 0;
-  margin-left: auto;
 }
 .about-me {
   font-family: var(--primary-font);
