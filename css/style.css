@@ -45,7 +45,7 @@ body {
   background-color: var(--secondary-color);
   line-height: 28px;
   font-size: 18px;
-  margin: 15px;
+  margin: 15px auto;
 }
 @media (max-width: 769px) {
   #home-page-hero {
