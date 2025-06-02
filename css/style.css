@@ -33,11 +33,19 @@ body {
   font-family: var(--button-font);
   padding: 10px 20px;
 }
-
+#app-desription h2 {
+  font-family: var(--primary-font);
+  font-size: 32px;
+}
+#app-description p {
+  font-family: var(--secondary-font);
+  margin: 20px auto;
+}
 #launch-button {
   background-color: var(--secondary-color);
   line-height: 28px;
   font-size: 18px;
+  margin: 15px;
 }
 @media (max-width: 769px) {
   #home-page-hero {
@@ -55,5 +63,8 @@ body {
   #app-desription {
     padding: 0;
     text-align: center;
+  }
+  #launch-button {
+    margin-bottom: 40px;
   }
 }
