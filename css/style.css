@@ -7,13 +7,15 @@
   --tertiary-color: rgb(0, 0, 0);
   --high-light-color: rgb(254, 119, 67);
 }
+body {
+  background-color: var(--primary-color);
+}
 
 #primary-heading {
   text-align: left;
   margin: 40px auto;
 }
 #home-page-hero {
-  background-color: var(--primary-color);
   text-align: left;
   margin: 0;
   padding: 200px 400px 200px 200px;
