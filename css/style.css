@@ -128,7 +128,12 @@ nav li.active a {
 
 #button-link {
   font-family: var(--button-font);
+  color: #ffff;
+
   padding: 10px 20px;
+}
+#button-link:hover {
+  color: var(--high-light-color);
 }
 #app-desription h2 {
   font-family: var(--primary-font);
@@ -143,11 +148,15 @@ nav li.active a {
   font-size: 18px;
   margin: 15px auto;
 }
+#launch-button:hover {
+  box-shadow: 0 0 5px 5px rgba(254, 119, 67, 0.3);
+}
+
 #head-shot {
   max-width: 300px;
 }
-#project-heading h1 {
-  font-size: 32px;
+#work-page-image {
+  border-radius: 10px;
 }
 #work-tag-description {
   line-height: 0.5;
@@ -156,12 +165,19 @@ nav li.active a {
   font-size: 24px;
 }
 #project-container {
-  margin-bottom: 60px;
+  margin: 100px auto;
+}
+#project-heading {
+  padding-top: 200px;
+}
+#project-heading h1 {
+  font-size: 32px;
+  color: var(--high-light-color);
 }
 #contact-me-hero {
   text-align: left;
   margin: 0;
-  padding: 100px 400px 200px 200px;
+  padding: 230px 400px 150px 200px;
 }
 #contact-me-hero h1 {
   color: var(--high-light-color);
