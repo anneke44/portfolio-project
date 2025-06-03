@@ -129,7 +129,7 @@ nav li.active a {
 #button-link {
   font-family: var(--button-font);
   color: #ffff;
-
+  transition: all 100ms ease-in-out;
   padding: 10px 20px;
 }
 #button-link:hover {
@@ -147,6 +147,7 @@ nav li.active a {
   line-height: 28px;
   font-size: 18px;
   margin: 15px auto;
+  transition: all 100ms ease-in-out;
 }
 #launch-button:hover {
   box-shadow: 0 0 5px 5px rgba(254, 119, 67, 0.3);
