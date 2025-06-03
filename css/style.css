@@ -61,6 +61,7 @@ nav li.active a {
   font-size: 24px;
   color: var(--secondary-color);
   margin-bottom: 10px;
+  transition: all 100ms ease-in-out;
 }
 .footer-email-link:hover {
   color: var(--high-light-color);
@@ -74,6 +75,7 @@ nav li.active a {
   text-decoration: none;
   margin: 10px 20px 20px;
   font-size: 30px;
+  transition: all 100ms ease-in-out;
 }
 .social-links a:hover {
   color: var(--high-light-color);
@@ -143,6 +145,15 @@ nav li.active a {
 }
 #contact-me-hero h1 {
   color: var(--high-light-color);
+}
+#contact-box {
+  background-color: rgba(39, 63, 79, 0.6);
+  padding: 30px 120px;
+  margin: 20px 200px;
+  border-radius: 10px;
+}
+#contact-box p {
+  margin: 0;
 }
 @media (max-width: 769px) {
   #home-page-hero {
