@@ -54,6 +54,30 @@ nav li.active a {
   color: var(--high-light-color);
   font-size: 16px;
 }
+.footer-email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+.footer-email-link:hover {
+  color: var(--high-light-color);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin: 10px 20px 20px;
+  font-size: 30px;
+}
+.social-links a:hover {
+  color: var(--high-light-color);
+}
 #nav-container {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   margin: 0px 5px;
