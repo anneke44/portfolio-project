@@ -58,12 +58,12 @@ nav li.active a {
   font-size: 16px;
 }
 .footer-email-link {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   text-decoration: none;
   font-size: 24px;
   color: var(--secondary-color);
-  margin: 10px 350px;
+  margin: 10px auto;
   transition: all 100ms ease-in-out;
 }
 .footer-email-link:hover {
@@ -152,7 +152,9 @@ nav li.active a {
 #launch-button:hover {
   box-shadow: 0 0 5px 5px rgba(254, 119, 67, 0.3);
 }
-
+#head-shot-container {
+  text-align: right;
+}
 #head-shot {
   max-width: 300px;
 }
@@ -184,6 +186,8 @@ nav li.active a {
   color: var(--high-light-color);
 }
 #contact-box {
+  display: flex;
+  justify-content: space-between;
   background-color: rgba(39, 63, 79, 0.4);
   padding: 30px 120px;
   margin: 0px 300px;
@@ -192,9 +196,44 @@ nav li.active a {
 #contact-box p {
   margin: 0;
 }
-@media (max-width: 769px) {
+@media (max-width: 1200px) {
+  #contact-box {
+    display: block;
+    text-align: center;
+    background-color: rgba(39, 63, 79, 0.4);
+    padding: 30px 0px;
+    margin: 0px 300px;
+    border-radius: 10px;
+  }
+  #contact-box button {
+    margin-bottom: 0px;
+  }
+  #about-page-content {
+    text-align: center;
+  }
+  #head-shot-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #contact-me-hero {
+    padding: 500px 20px 390px 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
   #home-page-hero {
-    padding: 20px 20px 20px 20px;
+    text-align: left;
+    margin: 0;
+    padding: 230px 200px 150px 150px;
+  }
+}
+@media (max-width: 769px) {
+  nav li {
+    line-height: 40px;
+    font-size: 14px;
+  }
+  #home-page-hero {
+    padding: 210px 20px 90px 20px;
     text-align: center;
   }
   #home-page-hero h1 {
@@ -205,6 +244,9 @@ nav li.active a {
     font-size: 28px;
     text-align: center;
   }
+  #featured-projects-container {
+    margin: 50px auto;
+  }
   #app-desription {
     padding: 0;
     text-align: center;
@@ -212,15 +254,36 @@ nav li.active a {
   #launch-button {
     margin-bottom: 40px;
   }
-  #about-me-hero {
-    padding: 0;
+  #head-shot-container {
     text-align: center;
-  }
-  #about-me-hero h1 {
-    font-size: 32px;
+    margin-top: 50px;
   }
   #head-shot {
     margin-top: 50px;
     max-width: 200px;
+  }
+  #contact-box {
+    display: none;
+  }
+  #contact-me-hero {
+    padding: 200px 20px 100px 20px;
+    text-align: center;
+  }
+  #contact-me-hero h1 {
+    color: var(--high-light-color);
+    font-size: 32px;
+  }
+
+  .footer-email-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin: 10px auto;
+    transition: all 100ms ease-in-out;
+  }
+  .footer-email-link:hover {
+    color: var(--high-light-color);
   }
 }
