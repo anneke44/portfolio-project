@@ -104,7 +104,9 @@ nav li.active a {
 #home-page-hero h2 {
   font-family: var(--primary-font);
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), #efeeea 99%);
+  color: transparent;
+  background-clip: text;
 }
 #hero-image {
   max-width: 400px;
@@ -243,6 +245,9 @@ nav li.active a {
   #home-page-hero h2 {
     font-size: 28px;
     text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), #efeeea 99%);
+    color: transparent;
+    background-clip: text;
   }
   #featured-projects-container {
     margin: 50px auto;
